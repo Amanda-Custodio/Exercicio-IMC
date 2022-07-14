@@ -6,6 +6,12 @@ namespace IMC
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Como você se chama?");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Qual sua idade?");
+            string idade = Console.ReadLine();
+
             Console.WriteLine("Escreva seu peso com vírgula");
             float peso = (float)Convert.ToDouble(Console.ReadLine());
 
